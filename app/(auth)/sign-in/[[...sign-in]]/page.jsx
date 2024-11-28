@@ -33,8 +33,7 @@ export default function Page() {
         </h2>
 
         <p className="mt-4 leading-relaxed text-white/90">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-          quibusdam aperiam voluptatum.
+        Welcome back! Sign in to continue your journey with AI Interview Mocker and unlock personalized mock interview sessions.
         </p>
       </div>
     </section>
