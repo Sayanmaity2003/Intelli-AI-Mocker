@@ -177,7 +177,7 @@ export default function Home() {
 		  </div>
 		</div>
 		<div className="relative">
-		  <img className="inset-0 object-cover w-full rounded shadow-lg h-96 lg:absolute lg:h-full img-editable" src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485" alt=""/>
+		  <img className="inset-0 object-cover w-full rounded shadow-lg h-96 lg:absolute lg:h-full img-editable" src="/how.webp" alt=""/>
 		<p className="photo-credit absolute bottom-3 text-white text-xs right-4 tracking-tight secondary_text font-medium"></p></div>
 	  </div>
 	</div>
