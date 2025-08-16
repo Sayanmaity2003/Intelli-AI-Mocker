@@ -1,9 +1,9 @@
 /** @type { import("drizzle-kit").Config} */
-
+import 'dotenv/config';
 export default {
     schema : "./utils/schema.js",
     dialect : 'postgresql',
     dbCredentials : {
-        url : 'postgresql://neondb_owner:fTdj6hAFkU1B@ep-patient-tooth-a5t0dw5l.us-east-2.aws.neon.tech/AI-Interview-Mocker?sslmode=require'
+        url : process.env.NEXT_PUBLIC_DRIZZLE_DB_URL
     }
 }
